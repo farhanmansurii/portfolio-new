@@ -18,7 +18,7 @@ export default function about() {
   };
   return (
     <div onScroll={handleScroll}>
-      <div className=" h-100vh  bg-[#FDFFF7] text-4xl lg:text-6xl py-4 w-11/12 mx-auto">
+      <div className=" h-100vh  bg-[#FDFFF7] text-4xl lg:text-6xl py-4 w-[95%] mx-auto">
         <div className="  flex flex-col lg:flex-row-reverse">
           <div className="w-10/12 mx-auto"></div>
           <div className=" p-4">
@@ -26,9 +26,9 @@ export default function about() {
           </div>
         </div>
       </div>
-      <div className="flex w-11/12 mx-auto mt-[5rem] ">
-        <div className="w-fit text-[#FDFFF7] lg:text-3xl  py-4  mx-auto">About me</div>
-        <div className="h-100vh  bg-[#FDFFF7] lg:text-3xl px-6 py-4 w-11/12 mx-auto">
+      <div className="flex flex-col lg:flex-row gap-5 w-[95%] mx-auto mt-[5rem] ">
+        <div className="w-full text-[#FDFFF7] lg:text-3xl  px-4 text-xl mx-auto text-end">About me</div>
+        <div className="h-100vh  bg-[#FDFFF7] lg:text-3xl px-4 py-4  mx-auto">
           Hi there! My name is Farhan Mansuri and I'm a fresher front-end developer with a passion for Front-End Developement. I also have some experience with back-end development, which gives me a
           well-rounded understanding of the web development process.
           <br /> <br /> I recently graduated with a Masters Degree in Computer Science from a S.K Somaiya College, where I learned the skills I need to build user-friendly and visually appealing web

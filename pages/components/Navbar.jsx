@@ -4,7 +4,7 @@ export default function Navbar() {
   
   return (
     <div className="fixed w-full bg-[#262525]/40 backdrop-blur-[2px]">
-      <div className="text-[#bebebe]   text-lg lg:text-2xl flex justify-between mx-auto w-11/12 pt-3 pb-2 border-b-[2px] capitalize border-[#bebebe]">
+      <div className="text-[#bebebe]   text-lg lg:text-2xl flex justify-between mx-auto w-[95%] pt-3 pb-2 border-b-[2px] capitalize border-[#bebebe]">
         <div>
           <Link href="/" >
             <div className="hover:line-through left-0 block lg:hidden  ease-in-out duration-200   ">FM '98</div>

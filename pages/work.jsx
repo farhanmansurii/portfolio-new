@@ -11,7 +11,7 @@ export default function work() {
     setShowImage(false);
   };
   return (
-    <div className='text-[#bebebe]/20 text-4xl lg:text-7xl duration-150 w-11/12 mx-auto '>
+    <div className='text-[#bebebe]/20 text-4xl lg:text-7xl duration-150 w-[95%] mx-auto '>
       <div  onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave} className='border-b-[1px] hover:bg-[#bebebe] flex hover:text-[#262525]  hover:px-4  duration-150 py-4 '>
         <Link href='/workdetail' >
