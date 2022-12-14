@@ -25,6 +25,7 @@ const handleClick = () => {
       <div className=" h-100vh  bg-[#FDFFF7] text-4xl lg:text-6xl py-4 w-11/12 mx-auto">
         <div className="  flex flex-col lg:flex-row-reverse">
        <div className='w-10/12 mx-auto'>
+        
          <Spline scene="https://prod.spline.design/sEsA41xs5a3ajCYW/scene.splinecode" />
         </div>
       <div className=' p-4' >
