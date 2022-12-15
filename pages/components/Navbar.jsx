@@ -18,11 +18,11 @@ export default function Navbar() {
           <Link href="/work">
             <div className="hover:line-through ease-in-out duration-200   ">Work</div>
           </Link>
-          <Link href="/about">
+          <Link href="/">
             <div className="hover:line-through ease-in-out duration-200   ">About</div>
           </Link>
           <Link href="/contact">
-            <div className="hover:line-through ease-in-out duration-200   ">Contact Me</div>
+            <div className="hover:line-through ease-in-out duration-200   ">Resume</div>
           </Link>
         </div>
       </div>
