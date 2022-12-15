@@ -12,7 +12,7 @@ export default function work({ data }) {
     setShowImage(false);
   };
   return (
-    <div className="text-[#bebebe]/20 text-4xl lg:text-7xl duration-150 w-[95%] mx-auto ">
+    <div className="text-[#bebebe]/20 text-4xl lg:text-7xl duration-150 w-[95%]  mx-auto ">
       {data.map((e,i) => (
         <div className="border-b-[1px] hover:bg-[#bebebe] flex hover:text-[#262525]  hover:px-4  duration-150 py-4 ">
           <Link href={`/${e._id}`}>
@@ -28,7 +28,7 @@ export default function work({ data }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   // Fetch data from external API
   const res = await fetch(`https://productapi.vercel.app/api/project`);
   const data = await res.json();

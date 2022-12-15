@@ -7,7 +7,7 @@ export default function workdetail({ data }) {
       <div className="flex flex-col lg:flex-row gap-5  ">
         <div className=" my-auto w-full">
           <img className='my-auto' src={data.image} />
-          <div className="text-[#bebebe]   bottom-10 lg:bottom-16 relative ">
+          <div className="text-[#bebebe]   bottom-12 relative ">
             <Link href={'/work'}>
               <div className="text-md px-4 py-2 mx-3 flex gap-2 bg-black/10 hover:bg-[#262525]/60 duration-150  backdrop-blur-[2px] rounded-full w-fit">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -16,7 +16,7 @@ export default function workdetail({ data }) {
                 ( All Projects )
               </div>
             </Link>
-            <div className=" text-5xl lg:text-7xl">{data.title}</div>
+            <div className=" text-5xl ml-3 lg:text-7xl">{data.title}</div>
           </div>
         </div>
 
