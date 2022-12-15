@@ -1,4 +1,3 @@
-import Spline from "@splinetool/react-spline";
 import React, { useState } from "react";
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
@@ -21,9 +20,6 @@ export default function Home() {
     <div onScroll={handleScroll}>
       <div className=" h-100vh  bg-[#bebebe] text-4xl lg:text-6xl py-4 w-[95%] mx-auto">
         <div className="  flex flex-col lg:flex-row-reverse">
-          <div className="w-10/12 mx-auto">
-            <Spline scene="https://prod.spline.design/sEsA41xs5a3ajCYW/scene.splinecode" />
-          </div>
           <div className=" p-4">
             I’m a front-end developer. With a focus on methodical code, I enjoy
             making websites that are innovative, user-focused , designed for me
