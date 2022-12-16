@@ -13,7 +13,8 @@
     "react-dom": "18.2.0",
     "react-medium-image-zoom": "^5.1.2",
     "react-pdf": "^6.2.0",
-    "react-spinners": "^0.13.7"
+    "react-spinners": "^0.13.7",
+    "react-spinners-kit": "^1.9.1"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
