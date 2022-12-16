@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React, { useState } from "react";
+import Link from 'next/link';
+import React, { useState } from 'react';
 export default function work({ data }) {
   console.log(data);
   const [showImage, setShowImage] = useState(false);
@@ -14,13 +14,13 @@ export default function work({ data }) {
   return (
     <div className="text-[#bebebe]/50 text-4xl lg:text-6xl duration-150 w-[95%]  mx-auto ">
       {data.map((e, i) => (
-        <div className="border-b-[1px] hover:bg-[#bebebe] flex hover:text-[#262525]  hover:px-4  duration-200 py-4 ">
-          <Link href={`/${e._id}`}>
+        <Link href={`/${e._id}`} key={i}>
+          <div className="border-b-[1px] hover:bg-[#bebebe] flex hover:text-[#262525]  hover:px-4  duration-200 py-4 ">
             <div>
               <span className="text-lg">(0{i + 1})</span> {e.title}
             </div>
-          </Link>
-        </div>
+          </div>
+        </Link>
       ))}
     </div>
   );

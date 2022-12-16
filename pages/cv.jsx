@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { PulseLoader } from "react-spinners";
 export default function cv() {
   const [loading, setLoading] = useState(true);
-
   return (
     <div className=" text-[#bebebe] ">
       {loading && (
