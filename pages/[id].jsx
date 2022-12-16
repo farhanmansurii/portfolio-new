@@ -66,7 +66,7 @@ export default function workdetail({ data }) {
           </div>
         </div>
       </div>
-      <button className="fixed bottom-0 right-0 mb-5 mr-5 bg-[#262525] rounded-full border-2 border-[#bebebe] px-4 py-2  text-[#bebebe]" onClick={handleClick}>
+      <button className="fixed bottom-0 right-0 mb-12 mr-5 bg-[#262525] rounded-full border-2 border-[#bebebe] px-4 py-2  text-[#bebebe]" onClick={handleClick}>
         Back to top
       </button>
     </div>

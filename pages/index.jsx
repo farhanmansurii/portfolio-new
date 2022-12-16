@@ -48,7 +48,7 @@ export default function Home() {
           <br /> <br /> I’m always open to hearing about new projects and opportunities so please feel free to get in touch.
         </div>
       </div>
-      <button className="fixed bottom-0 right-0 mb-5 mr-5 bg-[#262525] rounded-full border-2 border-[#bebebe] px-4 py-2  text-[#bebebe]" onClick={handleClick}>
+      <button className="fixed bottom-0 right-0 mb-10 lg:mb-11 mr-5 bg-[#262525] rounded-full border-2 border-[#bebebe] px-4 py-2  text-[#bebebe]" onClick={handleClick}>
         Back to top
       </button>
     </div>

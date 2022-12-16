@@ -23,11 +23,7 @@ export default function Navbar() {
               Work
             </div>
           </Link>
-          <Link href="/">
-            <div className="hover:line-through ease-in-out duration-200   ">
-              About
-            </div>
-          </Link>
+         
           <Link href="/cv">
             <div className="hover:line-through ease-in-out duration-200   ">
               Resume

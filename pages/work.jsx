@@ -16,9 +16,15 @@ export default function work({ data }) {
       {data.map((e, i) => (
         <Link href={`/${e._id}`} key={i}>
           <div className="border-b-[1px] hover:bg-[#bebebe] flex hover:text-[#262525]  hover:px-4  duration-200 py-4 ">
-            <div>
-              <span className="text-lg">(0{i + 1})</span> {e.title}
-            </div>
+            {i < 9 ? (
+              <div>
+                <span className="text-lg">(0{i + 1})</span> {e.title}
+              </div>
+            ) : (
+              <div>
+                <span className="text-lg">({i + 1})</span> {e.title}
+              </div>
+            )}
           </div>
         </Link>
       ))}
