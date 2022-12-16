@@ -25,10 +25,10 @@ export default function Home() {
           <div className=" w-fit mx-auto my-auto">
             {loading && (
               <div className="text-[#bebebe] w-[250px] h-[250px] flex justify-center items-center">
-                <CircleSpinner size={30} color="#262525" loading={loading} />
+                <CircleSpinner size={40} color="#262525" loading={loading} />
               </div>
             )}
-             <Spline scene="https://prod.spline.design/o9K2aFollWgnrqL9/scene.splinecode"  onLoad={() => setLoading(false)} />
+           <Spline scene="https://prod.spline.design/o9K2aFollWgnrqL9/scene.splinecode" onLoad={() => setLoading(false)} />
           </div>
 
           <div className=" p-4">
