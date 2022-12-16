@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-5 w-[95%] mx-auto mt-[5rem] ">
-        <div className="w-full text-[#bebebe] lg:text-3xl  px-4 text-xl mx-auto text-end">About me</div>
+        <div className="w-full text-[#bebebe] lg:text-3xl  px-4 text-xl mx-auto ">About me</div>
         <div className="h-100vh  bg-[#bebebe] lg:text-3xl px-4 py-4  mx-auto">
           Hi there! My name is Farhan Mansuri and I'm a fresher front-end developer with a passion for Front-End Developement. I also have some experience with back-end development, which gives me a
           well-rounded understanding of the web development process.
