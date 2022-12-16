@@ -1,6 +1,4 @@
-import Spline from '@splinetool/react-spline';
 import React, { useState } from 'react';
-import { CircleSpinner } from 'react-spinners-kit';
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -22,14 +20,14 @@ export default function Home() {
     <div onScroll={handleScroll}>
       <div className=" h-100vh  bg-[#bebebe] text-4xl lg:text-6xl py-4 w-[95%] mx-auto">
         <div className="  flex flex-col lg:flex-row-reverse">
-          <div className=" w-fit mx-auto my-auto">
+          {/* <div className=" w-fit mx-auto my-auto">
             {loading && (
               <div className="text-[#bebebe] w-[250px] h-[250px] flex justify-center items-center">
                 <CircleSpinner size={30} color="#262525" loading={loading} />
               </div>
             )}
            <Spline scene="https://prod.spline.design/o9K2aFollWgnrqL9/scene.splinecode" onLoad={() => setLoading(false)} />
-          </div>
+          </div> */}
 
           <div className=" p-4">
             I’m a front-end developer. With a focus on methodical code, I enjoy making websites that are innovative, user-focused , designed for me and for people, accessible & performant .
