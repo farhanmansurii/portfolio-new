@@ -39,7 +39,7 @@ export default function workdetail({ data }) {
           <div className="text-xl italic text-[#bebebe] mb-3 underline underline-offset-auto">Description</div>
           <div className="text-[#bebebe]/70">{data.description}</div>
           <div className="flex justify-between  lg:flex my-10">
-              { data.liveLinks !== '-' && 
+              { data.liveLinks !== '-' || data.liveLinks !== "," && 
             <div className="text-[#bebebe] animate-pulse flex gap-2 my-auto ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
