@@ -12,10 +12,10 @@ export default function work({ data }) {
     setShowImage(false);
   };
   return (
-    <div className="text-[#bebebe]/50 text-4xl lg:text-6xl duration-150 w-[95%]  mx-auto ">
+    <div className="text-[#777777]/50 text-4xl lg:text-6xl duration-150 w-[95%]  mx-auto ">
       {data.map((e, i) => (
         <Link href={`/${e._id}`} key={i}>
-          <div className="border-b-[1px] hover:bg-[#bebebe] flex hover:text-[#262525]  hover:px-4  duration-200 py-4 ">
+          <div className="border-b-[1px] hover:bg-[#777777] flex hover:text-[#111111]  hover:px-4  duration-200 py-4 ">
             {i < 9 ? (
               <div>
                 <span className="text-lg">(0{i + 1})</span> {e.title}

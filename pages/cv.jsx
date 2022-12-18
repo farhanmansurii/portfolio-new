@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { CircleSpinner } from "react-spinners-kit";
+import React from "react";
 export default function cv() {
   return (
-    <div className=" text-[#bebebe] ">
+    <div className=" text-[#777777] ">
       
         <iframe
         
