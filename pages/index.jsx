@@ -50,25 +50,27 @@ export default function Home() {
           effectively communicate products to their intended users using modern web technologies{' '}
         </div>
       </div>
-      <div className='my-10 text-4xl w-[98%] mx-auto'>
-        Skills & Technologies
+      <div className='my-10 text-4xl mx-auto'>
+       <div className='mx-auto w-full'>
+         Skills & Technologies
+        </div>
         <div className="grid grid-cols-4 mx-auto lg:grid-cols-8 w-fit  gap-9 ">
-          <SiHtml5 className="w-12 h-12" />
-          <SiCss3 className="w-12 h-12" />
-          <SiJavascript className="w-12 h-12" />
-          <SiReact className="w-12 h-12" />
-          <SiRedux className="w-12 h-12" />
-          <SiNextdotjs className="w-12 h-12" />
-          <SiMongodb className="w-12 h-12" />
-          <SiExpress className="w-12 h-12" />
-          <SiNodedotjs className="w-12 h-12" />
-          <SiNodemon className="w-12 h-12" />
-          <SiFirebase className="w-12 h-12" />
-          <SiTailwindcss className="w-12 h-12" />
-          <SiChakraui className="w-12 h-12" />
-          <SiGit className="w-12 h-12" />
-          <SiPython className="w-12 h-12" />
-          <SiJenkins className="w-12 h-12" />
+          <SiHtml5 className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiCss3 className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiJavascript className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiReact className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiRedux className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiNextdotjs className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiMongodb className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiExpress className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiNodedotjs className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiNodemon className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiFirebase className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiTailwindcss className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiChakraui className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiGit className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiPython className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiJenkins className="w-12 h-12 hover:text-[#bebebe]" />
         </div>
       </div>
     </div>
