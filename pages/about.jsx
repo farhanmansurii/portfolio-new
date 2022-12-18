@@ -1,9 +1,13 @@
+import Head from 'next/head';
 import React from 'react';
 export default function about() {
 
   return (
     <div >
-      
+       <Head>
+        <title>About | Farhan Mansuri</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="flex flex-col lg:flex-row gap-5 w-[95%] mx-auto ">
         <div className="w-full text-[#777777] text-3xl  px-4 lg:text-4xl mx-auto pt-4 ">About me</div>
         <div className="h-100vh  bg-[#777777]/30 text-[#111111]  font-extralight text-3xl px-4  mx-auto">

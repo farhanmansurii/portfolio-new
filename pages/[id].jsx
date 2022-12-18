@@ -1,8 +1,13 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 export default function workdetail({ data }) {
   return (
     <div className="mx-auto w-11/12 ">
+       <Head>
+        <title>{data.title} | Farhan Mansuri</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="flex flex-col lg:flex-row gap-5  ">
         <div>
           <Link href="/work">

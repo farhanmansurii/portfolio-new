@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import {
@@ -21,6 +22,10 @@ import {
 export default function Home() {
   return (
     <div className="text-[125px] lg:text-[244.554px] hilg:my-0 mx-auto leading-none">
+       <Head>
+        <title>Home | Farhan Mansuri</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className='min-h-80vh justify-around'>
         <div className="flex flex-wrap tracking-tighter ">
           <div className="  hover:text-[#bebebe] duration-150 ease-in-out   text-bebas">F</div>
