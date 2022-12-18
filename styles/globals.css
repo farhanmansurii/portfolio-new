@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-color: #262525;
-  
-  font-family: 'Migra';
+  background-color: #111111;
+  color: #777777;
+  font-family: 'Bebas';
 }
 @font-face {
   font-family: 'Migra';
-  src: url('./fonts/Migra-Extralight.woff2') format('woff2'),
-      url('./fonts/Migra-Extralight.woff') format('woff');
+  src: url('./fonts/Migra-Extralight.woff2') format('woff2'), url('./fonts/Migra-Extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Bebas';
+  src: url('./fonts/BebasNeueBold.woff2') format('woff2'), url('./fonts/BebasNeueBold.woff') format('woff');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
