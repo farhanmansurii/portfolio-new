@@ -51,26 +51,26 @@ export default function Home() {
         </div>
       </div>
       <div className='my-10 text-4xl mx-auto'>
-       <div className='mx-auto w-full'>
+       <div className='w-[10/12] '>
          Skills & Technologies
         </div>
         <div className="grid grid-cols-4 mx-auto lg:grid-cols-8 w-fit  gap-9 ">
-          <SiHtml5 className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiCss3 className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiJavascript className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiReact className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiRedux className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiNextdotjs className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiMongodb className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiExpress className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiNodedotjs className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiNodemon className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiFirebase className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiTailwindcss className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiChakraui className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiGit className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiPython className="w-12 h-12 hover:text-[#bebebe]" />
-          <SiJenkins className="w-12 h-12 hover:text-[#bebebe]" />
+          <SiHtml5 className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiCss3 className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiJavascript className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiReact className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiRedux className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiNextdotjs className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiMongodb className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiExpress className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiNodedotjs className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiNodemon className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiFirebase className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiTailwindcss className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiChakraui className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiGit className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiPython className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
+          <SiJenkins className="w-12 hover:scale-[120%] duration-200 h-12 hover:text-[#bebebe]" />
         </div>
       </div>
     </div>
