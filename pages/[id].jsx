@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import BiArrowBack from 'react-icons/bi';
+import { FaArrowLeft } from 'react-icons/fa';
 export default function workdetail({ data }) {
   return (
     <div className="mx-auto w-11/12 ">
@@ -12,10 +12,10 @@ export default function workdetail({ data }) {
       <div className="flex flex-col lg:flex-row gap-5  ">
         <div>
           <Link href="/work">
-            <div className=" flex my-4 text-sm text-[#777777] border-[1px] w-fit px-4 rounded-full py-1"> <BiArrowBack/> Back to all works</div>
+            <div className=" flex my-4 text-sm text-[#111111] bg-[#777777]  w-fit px-4 rounded-full py-1">  Back to all works </div>
           </Link>
           <div className="  w-full -z-50">
-            <img src={data.image} className="w-full" />
+            <img src={data.image} className="w-full" /> 
           </div>
           <div className="text-[#777777]  space-y-3 mt-3">
             <div className=" text-4xl lg:text-6xl">{data.title}</div>

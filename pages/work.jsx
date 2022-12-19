@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React, { useState } from 'react';
 export default function work({ data }) {
-  const sorted = data.sort((a,b)=>(a.id < b.id) ? 1: -1);
+  console.log(data);
   const [showImage, setShowImage] = useState(false);
 
   const handleMouseEnter = () => {
@@ -18,7 +18,7 @@ export default function work({ data }) {
         <title>Works | Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      {sorted.map((e, i) => (
+      {data.reverse().map((e, i) => (
         <Link href={`/${e._id}`} key={i}>
           <div className="border-b-[1px] border-[#777777] hover:bg-[#777777] flex hover:text-[#111111]  hover:px-4  duration-200 py-4 ">
             {i < 9 ? (
