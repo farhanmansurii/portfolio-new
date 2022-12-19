@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <div className="text-2xl  h-fit lg:w-[350px] w-[95%]    mt-4 mx-auto">
             <span className="mr-3 text-[#323232]">ABOUT</span>
-            Hi I'm Farhan mansuri ,I am a developer based in Mumbai MH, India focused on creating elegant, simple, and intuitive web interfaces. Here you can find{' '}
+            Hi I'm Farhan mansuri, a developer based in Mumbai MH, India focused on creating elegant, simple, and intuitive web interfaces. Here you can find{' '}
             <span className="bg-[#777777] text-[#111111] px-1">
               <Link href="/about">about me</Link>
             </span>{' '}

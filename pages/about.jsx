@@ -10,7 +10,7 @@ export default function about() {
       </Head>
       <div className="flex flex-col lg:flex-row gap-5 w-[95%] mx-auto ">
         <div className="w-full text-[#777777] text-3xl  px-4 lg:text-4xl mx-auto pt-4 ">About me</div>
-        <div className="h-100vh  bg-[#777777]/30 text-[#111111]  font-extralight text-3xl px-4  mx-auto">
+        <div className="h-100vh  bg-[#777777]/60 text-[#111111]  font-extralight text-3xl px-4  mx-auto">
         (◕‿◕)  Hi there! My name is Farhan Mansuri and I'm a fresher front-end developer with a passion for Front-End Developement. I also have some experience with back-end development, which gives me a
           well-rounded understanding of the web development process.
           <br /> <br /> I recently graduated with a Masters Degree in Computer Science from S.K Somaiya College, where I learned the skills I need to build user-friendly and visually appealing web
