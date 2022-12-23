@@ -1,11 +1,11 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import React, { useState } from 'react';
+import Head from "next/head";
+import Link from "next/link";
+import React from "react";
 export default function work({ data }) {
   data = data.sort((a, b) => b.__v - a.__v);
- 
+
   return (
-    <div className="text-[#777777]/50 text-4xl lg:text-6xl duration-150 w-[95%]  mx-auto ">
+    <div className="text-[#777777]/50 text-4xl  lg:text-6xl duration-150 w-[95%]  mx-auto ">
       <Head>
         <title>Works | Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
