@@ -59,8 +59,8 @@ export default function Home() {
             d
           </div>
         </div>
-        <div className="flex   lg:flex-row flex-col">
-          <div className="flex flex-wrap  tracking-tighter scale-[98%] ">
+        <div className="flex z-0  lg:flex-row flex-col">
+          <div className="flex flex-wrap  tracking-tighter  md:tracking-tight  ">
             <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
               D
             </div>
