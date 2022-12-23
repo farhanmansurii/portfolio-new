@@ -7,14 +7,14 @@ export default function Navbar() {
 
   return (
     <div className="fixed w-full mx-auto bg-[#111111]/40 backdrop-blur-[2px]">
-      <div className="  text-lg lg:text-2xl flex justify-between mx-auto  w-[98%] pt-3 pb-2 border-b-[2px] capitalize border-[#777777]">
+      <div className="  text-lg lg:text-2xl flex justify-between mx-2 w-[98%] pt-3 pb-2 border-b-[2px] capitalize border-[#777777]">
         <div>
           <Link href="/">
             <div>farhan mansuri '98</div>
           </Link>
         </div>
 
-        <div className="flex  gap-2 lg:gap-4">
+        <div className="flex mx-2  gap-2 lg:gap-4">
           <Link href="/">
             <div className={currentRoute === "/" ? "line-through" : ""}>
               Home

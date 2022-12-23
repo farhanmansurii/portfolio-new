@@ -26,7 +26,7 @@ export default function Home() {
         <title>Home | Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="min-h-80vh z-0 my-5 lg:my-2 w-full justify-around">
+      <div className="min-h-80vh z-0 my-5 lg:my-2 w-full  justify-around">
         <div className="flex flex-wrap tracking-tighter ">
           <div className="  hover:text-[#bebebe] duration-150 ease-in-out   text-bebas">
             F
