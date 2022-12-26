@@ -123,7 +123,7 @@ export default function Home() {
                   </div>
                 </div>
               </motion.div>
-              <div className="text-3xl  font-neue h-fit lg:w-[350px] w-[95%]    mt-4 mx-auto">
+              <div className="text-3xl  font-neue h-fit lg:w-[350px] w-[95%]    pt-5 mx-auto">
                 <motion.div
                   initial={{ x: 100, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
@@ -158,7 +158,7 @@ export default function Home() {
           <div className="my-12 text-4xl mx-auto grid justify-center place-content-center  space-y-6">
             <div className="text-4xl justify-center  font-migra font-semibold w-fit  ">
               {" "}
-              Skills & Technology——
+              Skills——
             </div>
             <div className="grid grid-cols-4 lg:grid-cols-8 w-fit    gap-9 ">
               <SiHtml5 className="w-12 hover:scale-[105%] text-[#bebebe]/60 duration-200 h-12 hover:text-[#bebebe]" />
