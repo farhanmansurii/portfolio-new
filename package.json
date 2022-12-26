@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@splinetool/react-spline": "^2.2.5",
+    "framer-motion": "^8.0.2",
     "next": "latest",
     "next-image-zoom": "^1.1.7",
     "nextjs-progressbar": "^0.0.16",

@@ -1,3 +1,4 @@
+import { AnimatePresence, motion } from "framer-motion";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
@@ -11,20 +12,32 @@ export default function work({ data }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       {data.map((e, i) => (
-        <Link href={`/${e._id}`} key={i}>
-          <div className="border-b-[1px] py-4  border-[#bebebe]/60 hover:bg-[#bebebe] text-4xl lg:text-8xl flex hover:text-[#111111]  hover:px-4  duration-200  ">
-            {i < 9 ? (
-              <div>
-                <span className="text-xl italic  font-migra">(0{i + 1})</span>{" "}
-                {e.title}
+        <AnimatePresence>
+          <motion.div
+            key={e._id}
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 100, opacity: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Link href={`/${e._id}`} key={i}>
+              <div className="border-b-[1px] py-4  border-[#bebebe]/60 hover:bg-[#bebebe] text-4xl lg:text-8xl flex hover:text-[#111111]  hover:px-4  duration-200  ">
+                {i < 9 ? (
+                  <div>
+                    <span className="text-xl italic  font-migra">
+                      (0{i + 1})
+                    </span>{" "}
+                    {e.title}
+                  </div>
+                ) : (
+                  <div>
+                    <span className="text-lg">({i + 1})</span> {e.title}
+                  </div>
+                )}
               </div>
-            ) : (
-              <div>
-                <span className="text-lg">({i + 1})</span> {e.title}
-              </div>
-            )}
-          </div>
-        </Link>
+            </Link>
+          </motion.div>
+        </AnimatePresence>
       ))}
     </div>
   );
