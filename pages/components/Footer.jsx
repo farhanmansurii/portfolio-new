@@ -24,10 +24,10 @@ export default function Footer() {
         </div>
 
         <div>
-          <a href="mailto:mansurifarhanfm@gmail.com">e-Mail</a>
+          <a href="mailto:mansurifarhanfm@gmail.com">E-Mail</a>
         </div>
       </div>
-      <div className=" mx-auto">built with 💕 by farhan mansuri</div>
+      <div className=" mx-auto">built with 💕 by Farhan—Mansuri</div>
     </div>
   );
 }

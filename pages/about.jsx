@@ -9,7 +9,7 @@ export default function about() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.7 }}
         >
           <Head>
             <title>About | Farhan Mansuri</title>

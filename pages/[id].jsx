@@ -63,7 +63,7 @@ export default function workdetail({ data }) {
           </div>{" "}
           <div className=" ">
             <div className="text-[#777777]   border-b-[1px] my-2  text-4xl border-[#777777] w-full ">
-              TECH STACK
+              TECH STACK——
             </div>
             {data?.techStack.map(
               (e, i) =>
