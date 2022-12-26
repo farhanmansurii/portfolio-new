@@ -22,7 +22,7 @@ import {
 } from "react-icons/si";
 export default function Home() {
   return (
-    <div className="text-[125px] lg:text-[270.554px]  my-[4rem] mx-auto leading-none">
+    <div className="text-[125px] lg:text-[265.554px]   my-[4rem] mx-auto leading-none">
       <AnimatePresence>
         <motion.div
           initial={{ opacity: 0 }}

@@ -10,7 +10,13 @@ const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen w-fit overflow-x-hidden ">
+      <AnimatedCursor
+        innerSize={15}
+        color="255, 255 ,255"
+        outerAlpha={0.4}
+        innerScale={0.7}
+      />
       <Head>
         <title>Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -25,14 +31,7 @@ function MyApp({ Component, pageProps }) {
       />
 
       <Navbar />
-      <AnimatedCursor
-        innerSize={15}
-        outerSize={15}
-        color="255, 255 ,255"
-        outerAlpha={0.4}
-        innerScale={0.7}
-        outerScale={5}
-      />
+
       <Component {...pageProps} />
       <Footer />
     </div>
