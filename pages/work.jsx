@@ -29,7 +29,7 @@ export default function work({ data }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   // Fetch data from external API
   const res = await fetch(`https://productapi.vercel.app/api/project`);
   const data = await res.json();

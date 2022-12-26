@@ -29,7 +29,7 @@ export default function Navbar() {
           <Link href="/work">
             <div
               className={
-                currentRoute === "/work" ? "line-through italic font-thin" : ""
+                currentRoute === "/work" ? "line-through" : ""
               }
             >
               Work
