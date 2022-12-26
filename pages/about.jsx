@@ -29,10 +29,12 @@ export default function about() {
                 exit={{ x: 100, opacity: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                (◕‿◕) Hi there! My name is Farhan Mansuri and I'm a fresher
-                front-end developer with a passion for Front-End Developement. I
-                also have some experience with back-end development, which gives
-                me a well-rounded understanding of the web development process.
+                (◕‿◕) Hi there! My name is
+                <span className="underline"> Farhan Mansuri </span>and I'm a
+                fresher front-end developer with a passion for
+                <span className="underline"> Front-End Developement </span>. I
+                also have experience with back-end development, which gives me a
+                well-rounded understanding of the web development process.
                 <br />
               </motion.div>{" "}
               <motion.div
@@ -42,10 +44,14 @@ export default function about() {
                 transition={{ duration: 0.5 }}
               >
                 {" "}
-                <br /> I recently graduated with a Masters Degree in Computer
-                Science from S.K Somaiya College, where I learned the skills I
-                need to build user-friendly and visually appealing web
-                applications.
+                <br /> I recently graduated with a{" "}
+                <span className="underline">
+                  {" "}
+                  Masters Degree in Computer Science
+                </span>{" "}
+                from <span className="underline">S.K Somaiya College </span>,
+                where I learned the skills I need to build user-friendly and
+                visually appealing web applications.
                 <br />{" "}
               </motion.div>
               <motion.div
@@ -54,23 +60,15 @@ export default function about() {
                 exit={{ x: 100, opacity: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <br /> I also have some experience with back-end development,
-                which gives me a well-rounded understanding of the web
-                development process. Whilst writing code is what I do, it’s my
-                passion & appreciation of the arts . <br />
-              </motion.div>{" "}
-              <motion.div
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                exit={{ x: -100, opacity: 0 }}
-                transition={{ duration: 0.5 }}
-              >
                 {" "}
                 <br />
                 Over the years I’ve been fortunate enough to study,learn and
-                explore the new technologies , I’m interested in all kinds of
-                music, anime , movies, gaming, football and the great outdoors.
-                I absolutely love animals specially cats.
+                explore the new technologies , I’m interested in all kinds of{" "}
+                <span className="underline">
+                  music, anime , movies, gaming, football{" "}
+                </span>
+                and the great outdoors. I absolutely love animals specially
+                cats.
                 <br />
               </motion.div>{" "}
               <motion.div
@@ -81,7 +79,8 @@ export default function about() {
               >
                 {" "}
                 <br /> I’m always open to hearing about new projects and
-                opportunities so please feel free to get in touch.
+                opportunities so please feel free to{" "}
+                <span className="underline">get in touch</span>.
               </motion.div>
             </div>
           </div>
