@@ -11,8 +11,8 @@ export default function work({ data }) {
         <title>Works | Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      {data.map((e, i) => (
-        <AnimatePresence>
+      <AnimatePresence>
+        {data.map((e, i) => (
           <motion.div
             key={e._id}
             initial={{ y: 100, opacity: 0 }}
@@ -37,8 +37,8 @@ export default function work({ data }) {
               </div>
             </Link>
           </motion.div>
-        </AnimatePresence>
-      ))}
+        ))}
+      </AnimatePresence>
     </div>
   );
 }
