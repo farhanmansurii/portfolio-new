@@ -22,17 +22,17 @@ export default function Navbar() {
       >
         <div>
           <Link href="/">
-            <div>farhan mansuri '98</div>
+            <div className="font-extrabold">FXR</div>
           </Link>
         </div>
 
-        <div className="flex mx-2  gap-2 lg:gap-4">
+        <div className="flex mx-2  gap-7 lg:10">
           <Link href="/">
             <div
               className={
                 currentRoute === "/"
-                  ? "italic underline decoration-1 underline-offset-4"
-                  : ""
+                  ? "italic underline decoration-1 hidden lg:block underline-offset-4"
+                  : " hidden lg:block"
               }
             >
               Home
