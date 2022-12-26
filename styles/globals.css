@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-color: #111111;
+  background-color: #262525;
   color: #777777;
   font-family: "Bebas";
+}
+@font-face {
+  font-family: "PP Neue World Condensed";
+  src: url("./fonts/PPNeueWorld-CondensedRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Migra";

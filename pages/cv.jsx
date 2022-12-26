@@ -4,7 +4,7 @@ import Spinner from "react-spinner-material";
 export default function cv() {
   const [loading, setLoading] = useState(true);
   return (
-    <div className=" text-[#777777] ">
+    <div className=" text-[#777777] mt-[4rem] ">
       <Head>
         <title>CV | Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

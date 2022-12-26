@@ -21,12 +21,12 @@ import {
 } from "react-icons/si";
 export default function Home() {
   return (
-    <div className="text-[125px] lg:text-[270.554px]  lg:my-0 mx-auto leading-none">
+    <div className="text-[125px] lg:text-[270.554px]  my-[4rem] mx-auto leading-none">
       <Head>
         <title>Home | Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="min-h-80vh z-0 my-5 lg:my-2 w-full  justify-around">
+      <div className="min-h-80vh z-0 my-3 w-full  grid lg:-space-y-16 text-[#858585] justify-around ">
         <div className="flex flex-wrap tracking-tighter  ">
           <div className="  hover:text-[#bebebe] duration-150 ease-in-out   text-bebas">
             F
@@ -59,7 +59,7 @@ export default function Home() {
             d
           </div>
         </div>
-        <div className="flex z-0  lg:flex-row flex-col">
+        <div className="flex   lg:flex-row flex-col">
           <div className="flex flex-wrap  tracking-tighter  md:tracking-tight  ">
             <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
               D
@@ -89,26 +89,25 @@ export default function Home() {
               r
             </div>
           </div>
-          <div className="text-2xl  h-fit lg:w-[350px] w-[95%]    mt-4 mx-auto">
-            <span className="mr-3 text-[#323232]">ABOUT</span>
-            Hi I'm Farhan mansuri, a developer based in Mumbai MH, India focused
-            on creating elegant, simple, and intuitive web interfaces. Here you
-            can find{" "}
+          <div className="text-3xl  font-neue h-fit lg:w-[350px] w-[95%]    mt-4 mx-auto">
+            <span className="mr-3 text-[#bebebe]/30 ">ABOUT</span>
+            Hi I'm Farhan mansuri, based in Mumbai MH, India focused on creating
+            elegant, simple, and intuitive web interfaces. Here you can find{" "}
             <span className="bg-[#777777] text-[#111111] px-1">
               <Link href="/about">about me</Link>
             </span>{" "}
             ,{" "}
             <span className="bg-[#777777] text-[#111111] px-1">
-              <Link href="/work">Works</Link>
+              <Link href="/work">works</Link>
             </span>{" "}
-            and my{" "}
+            ,{" "}
             <span className="bg-[#777777] text-[#111111] px-1">
               <Link href="/work">CV</Link>
             </span>{" "}
             and also{" "}
             <span className="bg-[#777777] text-[#111111] px-1">
               {" "}
-              <a href="mailto:mansurifarhanfm@gmail.com">Contact me.</a>
+              <a href="mailto:mansurifarhanfm@gmail.com">contact me.</a>
             </span>
           </div>
         </div>

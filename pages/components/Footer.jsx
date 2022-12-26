@@ -1,8 +1,18 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 export default function Footer() {
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
   return (
-    <div className="w-[95%] mx-auto text-md flex-col lg:flex-row  bottom-0  lg:text-2xl border-[#777777] border-t-2 py-4  text-[#777777] flex justify-between ">
+    <div
+      className={
+        currentRoute === "/about"
+          ? "w-full mx-auto text-md flex-col lg:flex-row  bottom-0  lg:text-2xl bg-[#bebebe]  text-[#262525] font-migra border-[#262525] border-t-2 py-4   flex justify-between "
+          : "w-full mx-auto text-md flex-col lg:flex-row  bottom-0  lg:text-2xl border-[#bebebe] border-t-2 py-4 font-migra  text-[#bebebe] flex justify-between "
+      }
+    >
       <div className="flex mx-auto  space-x-10">
         <div>
           <a href="https://www.linkedin.com/in/farhan-mansuri-620918219/">

@@ -5,17 +5,18 @@ export default function work({ data }) {
   data = data.sort((a, b) => b.__v - a.__v);
 
   return (
-    <div className="text-[#777777]/50 text-4xl  lg:text-6xl duration-150 w-[95%]  mx-auto ">
+    <div className="text-[#bebebe]/60 text-4xl font-neue  uppercase  lg:text-6xl duration-150 w-[95%] my-[4rem] mx-auto ">
       <Head>
         <title>Works | Farhan Mansuri</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       {data.map((e, i) => (
         <Link href={`/${e._id}`} key={i}>
-          <div className="border-b-[1px] border-[#777777] hover:bg-[#777777] flex hover:text-[#111111]  hover:px-4  duration-200 py-2 ">
+          <div className="border-b-[1px] py-4  border-[#bebebe]/60 hover:bg-[#bebebe] text-4xl lg:text-8xl flex hover:text-[#111111]  hover:px-4  duration-200  ">
             {i < 9 ? (
               <div>
-                <span className="text-lg">(0{i + 1})</span> {e.title}
+                <span className="text-xl italic  font-migra">(0{i + 1})</span>{" "}
+                {e.title}
               </div>
             ) : (
               <div>
