@@ -9,7 +9,7 @@ export default function about() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.3 }}
         >
           <Head>
             <title>About | Farhan Mansuri</title>
@@ -23,24 +23,66 @@ export default function about() {
               About me
             </div>
             <div className="h-100vh   text-[#111111] font-neue font-extralight text-4xl px-4  mx-auto">
-              (◕‿◕) Hi there! My name is Farhan Mansuri and I'm a fresher
-              front-end developer with a passion for Front-End Developement. I
-              also have some experience with back-end development, which gives
-              me a well-rounded understanding of the web development process.
-              <br /> <br /> I recently graduated with a Masters Degree in
-              Computer Science from S.K Somaiya College, where I learned the
-              skills I need to build user-friendly and visually appealing web
-              applications.
-              <br /> <br /> I also have some experience with back-end
-              development, which gives me a well-rounded understanding of the
-              web development process. Whilst writing code is what I do, it’s my
-              passion & appreciation of the arts . <br /> <br />
-              Over the years I’ve been fortunate enough to study,learn and
-              explore the new technologies , I’m interested in all kinds of
-              music, anime , movies, gaming, football and the great outdoors. I
-              absolutely love animals specially cats.
-              <br /> <br /> I’m always open to hearing about new projects and
-              opportunities so please feel free to get in touch.
+              <motion.div
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: 100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                (◕‿◕) Hi there! My name is Farhan Mansuri and I'm a fresher
+                front-end developer with a passion for Front-End Developement. I
+                also have some experience with back-end development, which gives
+                me a well-rounded understanding of the web development process.
+                <br />
+              </motion.div>{" "}
+              <motion.div
+                initial={{ x: -100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: -100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                {" "}
+                <br /> I recently graduated with a Masters Degree in Computer
+                Science from S.K Somaiya College, where I learned the skills I
+                need to build user-friendly and visually appealing web
+                applications.
+                <br />{" "}
+              </motion.div>
+              <motion.div
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: 100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                <br /> I also have some experience with back-end development,
+                which gives me a well-rounded understanding of the web
+                development process. Whilst writing code is what I do, it’s my
+                passion & appreciation of the arts . <br />
+              </motion.div>{" "}
+              <motion.div
+                initial={{ x: -100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: -100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                {" "}
+                <br />
+                Over the years I’ve been fortunate enough to study,learn and
+                explore the new technologies , I’m interested in all kinds of
+                music, anime , movies, gaming, football and the great outdoors.
+                I absolutely love animals specially cats.
+                <br />
+              </motion.div>{" "}
+              <motion.div
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: 100, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                {" "}
+                <br /> I’m always open to hearing about new projects and
+                opportunities so please feel free to get in touch.
+              </motion.div>
             </div>
           </div>
         </motion.div>

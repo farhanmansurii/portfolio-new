@@ -8,16 +8,16 @@ export default function Navbar() {
   return (
     <div
       className={
-        currentRoute === "/about"
-          ? "   fixed w-full mx-auto font-migra bg-[#bebebe]/20  text-[#262525] backdrop-blur-[1.5px] "
-          : "fixed w-full mx-auto font-migra text-[#bebebe]  bg-[#262525]/20 backdrop-blur-[1.5px]"
+        currentRoute === "/about" || currentRoute === "/[id]"
+          ? "   fixed w-full mx-auto font-migra bg-[#bebebe]/20 z-50 text-[#262525] backdrop-blur-[1.5px] "
+          : "fixed w-full mx-auto font-migra text-[#bebebe]  z-50 bg-[#262525]/20 backdrop-blur-[1.5px]"
       }
     >
       <div
         className={
-          currentRoute === "/about"
-            ? "  text-lg lg:text-2xl flex justify-between mx-2 border-[#232323] w-[98%] pt-3 pb-2 border-b-[2px] capitalize "
-            : "  text-lg lg:text-2xl flex justify-between mx-2 w-[98%] pt-3 border-[#bebebe] pb-2 border-b-[2px] capitalize "
+          currentRoute === "/about" || currentRoute === "/[id]"
+            ? "  text-lg lg:text-2xl flex justify-between mx-auto border-[#232323] w-[97%] pt-3 pb-2 border-b-[2px] capitalize "
+            : "  text-lg lg:text-2xl flex justify-between mx-auto w-[97%] pt-3 border-[#bebebe] pb-2 border-b-[2px] capitalize "
         }
       >
         <div>

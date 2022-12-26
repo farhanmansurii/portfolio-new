@@ -13,15 +13,16 @@ export default function work({ data }) {
       </Head>
       <AnimatePresence>
         {data.map((e, i) => (
-          <motion.div
-            key={e._id}
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: 100, opacity: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Link href={`/${e._id}`} key={i}>
-              <div className="border-b-[1px] py-4  border-[#bebebe]/60 hover:bg-[#bebebe] text-4xl lg:text-8xl flex hover:text-[#111111]  hover:px-4  duration-200  ">
+          <Link href={`/${e._id}`} key={i}>
+            <div className="border-b-[1px] py-4  border-[#bebebe]/60 hover:bg-[#bebebe] text-4xl lg:text-8xl flex hover:text-[#111111]  hover:px-4  duration-200  ">
+              <motion.div
+                key={e._id}
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: 50, opacity: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                {" "}
                 {i < 9 ? (
                   <div>
                     <span className="text-xl italic  font-migra">
@@ -34,9 +35,9 @@ export default function work({ data }) {
                     <span className="text-lg">({i + 1})</span> {e.title}
                   </div>
                 )}
-              </div>
-            </Link>
-          </motion.div>
+              </motion.div>
+            </div>
+          </Link>
         ))}
       </AnimatePresence>
     </div>
