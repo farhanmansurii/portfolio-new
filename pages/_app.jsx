@@ -10,31 +10,36 @@ const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="flex flex-col min-h-screen w-fit overflow-x-hidden ">
+    <>
       <AnimatedCursor
         innerSize={15}
         color="255, 255 ,255"
         outerAlpha={0.4}
         innerScale={0.7}
       />
-      <Head>
-        <title>Farhan Mansuri</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <NextNProgress
-        color="#777777"
-        startPosition={0.3}
-        stopDelayMs={200}
-        height={5}
-        options={{ showSpinner: false }}
-        showOnShallow={true}
-      />
+      <div className="flex flex-col min-h-screen max-w-vw overflow-x-hidden ">
+        <Head>
+          <title>Farhan Mansuri</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
+        <NextNProgress
+          color="#777777"
+          startPosition={0.3}
+          stopDelayMs={200}
+          height={5}
+          options={{ showSpinner: false }}
+          showOnShallow={true}
+        />
 
-      <Navbar />
+        <Navbar />
 
-      <Component {...pageProps} />
-      <Footer />
-    </div>
+        <Component {...pageProps} />
+        <Footer />
+      </div>
+    </>
   );
 }
 
