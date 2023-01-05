@@ -27,7 +27,7 @@ export default function Footer() {
           <a href="mailto:mansurifarhanfm@gmail.com">E-Mail</a>
         </div>
       </div>
-      <div className=" mx-auto">built with 💕 by Farhan—Mansuri</div>
+      <div className=" mx-auto">built by Farhan—Mansuri</div>
     </div>
   );
 }

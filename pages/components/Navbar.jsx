@@ -32,7 +32,7 @@ export default function Navbar() {
               className={
                 currentRoute === "/"
                   ? "italic underline decoration-1 hidden lg:block underline-offset-4"
-                  : " hidden lg:block"
+                  : " "
               }
             >
               Home
