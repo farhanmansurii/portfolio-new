@@ -26,7 +26,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="flex mx-2  gap-7 lg:10">
+        <div className="flex mx-2  gap-5 lg:10">
           <Link href="/">
             <div
               className={

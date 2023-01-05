@@ -40,8 +40,7 @@ export default function about() {
                 <br />
                 <br />
 
-                I’m always open to hearing about new projects and opportunities so please feel free to get in touch.
-                <span className="underline">get in touch</span>.
+                I’m always open to hearing about new projects and opportunities so please feel free to  <span className="underline">get in touch</span>.
               </motion.div>
             </div>
           </div>
