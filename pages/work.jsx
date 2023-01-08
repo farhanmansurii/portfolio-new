@@ -32,7 +32,7 @@ export default function work({ data }) {
                   </div>
                 ) : (
                   <div>
-                    <span className="text-lg">({i + 1})</span> {e.title}
+                    <span className="text-xl italic  font-migra">({i + 1})</span> {e.title}
                   </div>
                 )}
               </motion.div>
@@ -44,7 +44,7 @@ export default function work({ data }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   // Fetch data from external API
   const res = await fetch(`https://productapi.vercel.app/api/project`);
   const data = await res.json();

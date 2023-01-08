@@ -31,7 +31,7 @@ export default function Navbar() {
             <div
               className={
                 currentRoute === "/"
-                  ? "italic underline decoration-1 hidden lg:block underline-offset-4"
+                  ? "italic underline decoration-1  underline-offset-4"
                   : " "
               }
             >
