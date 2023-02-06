@@ -46,24 +46,24 @@ export default function Home() {
                 transition={{ duration: 0.5 }}
                 className="flex"
               >
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out   text-bebas">
+                <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   F
-                </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                </motion.div>
+                <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   r
-                </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                </motion.div>
+                 <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   o
-                </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                </motion.div>
+                 <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   n
-                </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                </motion.div>
+                 <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   t
-                </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                </motion.div>
+                 <motion.div  >
                   —
-                </div>
+                </motion.div>
               </motion.div>
               <motion.div
                 initial={{ x: 100, opacity: 0 }}
@@ -75,15 +75,15 @@ export default function Home() {
                 <div className="  hover:text-[#bebebe] duration-150 ease-in-out text-bebas">
                   —
                 </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                 <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   e
-                </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                </motion.div>
+                 <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   n
-                </div>
-                <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                </motion.div>
+                 <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                   d
-                </div>
+                </motion.div>
               </motion.div>
             </div>
             <div className="flex   lg:flex-row flex-col">
@@ -94,33 +94,33 @@ export default function Home() {
                 transition={{ duration: 0.5 }}
               >
                 <div className="flex flex-wrap  tracking-tighter  md:tracking-tight  ">
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     D
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     E
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     v
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5, rotate:'5deg', opacity:0.3}} >
                     e
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     l
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     o
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     p
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     e
-                  </div>
-                  <div className="  hover:text-[#bebebe] duration-150 ease-in-out  text-bebas">
+                  </motion.div>
+                   <motion.div whileHover={{y:-5,opacity:0.5, rotate:'5deg'}} >
                     r
-                  </div>
+                  </motion.div>
                 </div>
               </motion.div>
               <div className="text-3xl  font-neue h-fit lg:w-[350px] w-[95%]    pt-5 mx-auto">
